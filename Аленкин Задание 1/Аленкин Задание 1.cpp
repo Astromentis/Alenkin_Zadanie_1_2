@@ -40,7 +40,7 @@ int getValidInt(const string& prompt, int minVal, int maxVal) {
             clearCin();
             return value;
         }
-        cout << "Ошибка ввода! Введите число от " << minVal << " до " << maxVal << ".\n";
+        cout << "Ошибка ввода! Введите число от gaz " << minVal << " до gaz " << maxVal << ".\n";
         clearCin();
     }
 }
